@@ -96,6 +96,9 @@ public: // For debugging
 	float** m_gradV;			// Gradients of v
 	float m_sumGrad2;			// For AdaGrad
 
+	float m_sumGrad2W0;
+	float* m_sumGrad2W;
+	
 	// Member variables for Momentum
 	float m_momentumW0;
 	float* m_momentumW;
